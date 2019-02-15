@@ -8,7 +8,7 @@ from keras.optimizers import SGD,Adam  # optimization algorithm
 
 
 NB_EPOCH = 100  # number of epoch
-BATCH_SIZE = 100  # mini batch size
+BATCH_SIZE = 50  # mini batch size
 VERBOSE = 1  # display results during training
 OPTIMIZER = Adam() # choose optimizer
 METRICS = ['accuracy']
