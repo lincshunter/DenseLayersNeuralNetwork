@@ -111,7 +111,7 @@ print(y_test.shape)
 
 
 #perform 10-fold cross validation using 2 hidden layers and 100 nodes in each hidden layer
-Metrics=layerDNN_kfold(x_train,y_train,x_test,y_test,2,100)
+Metrics=layerDNN_kfold(x_train,y_train,x_test,y_test,100,2)
 print("average testing metrics")
 print(np.average(Metrics,axis=0))
 
