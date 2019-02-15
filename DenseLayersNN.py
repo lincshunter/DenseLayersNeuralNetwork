@@ -82,10 +82,6 @@ def layerDNN_kfold(x_train,y_train,x_test,y_test,N_HIDDEN_NODES,N_HIDDEN_LAYERS)
 
 
 
-# DenseLayersNeuralNetwork
-
-Requires keras and Python3
-
 #need four numpy matrices
 #x_train = training features
 #y_train = training class labels
